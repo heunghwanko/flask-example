@@ -17,7 +17,7 @@ node {
              sh """${scannerHome}/bin/sonar-scanner \
                              -Dsonar.projectKey=demo-project \
                              -Dsonar.sources=. \
-                             -Dsonar.host.url=http://10.0.2.15:9000 \
+                             -Dsonar.host.url=http://127.0.0.1:9000 \
                              -Dsonar.login=squ_ae550991b03cff5011b1b33d51c8a915bc373059
              """
          }
